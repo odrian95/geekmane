@@ -1,0 +1,142 @@
+html {
+  scroll-behavior: smooth; }
+
+.test {
+  margin-bottom: 9.9%; }
+
+body {
+  overflow-x: hidden; }
+
+a {
+  font-family: "Russo One", sans-serif;
+  color: red; }
+
+.description {
+  font-family: "Russo One", sans-serif; }
+
+button:hover {
+  cursor: pointer; }
+
+button {
+  background: transparent;
+  outline: none;
+  position: relative;
+  border: 2px solid #111;
+  padding: 15px 80px;
+  overflow: hidden;
+  border-color: white; }
+
+button:hover:before {
+  opacity: 1;
+  transform: translate(0, 0); }
+
+button:before {
+  content: attr(data-hover);
+  position: absolute;
+  top: 1.1em;
+  left: 0;
+  width: 100%;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 800;
+  font-size: 0.8em;
+  opacity: 0;
+  transform: translate(-100%, 0);
+  transition: all 0.3s ease-in-out;
+  color: red;
+  /*button div (button text before hover) */ }
+
+button:hover div {
+  opacity: 0;
+  transform: translate(100%, 0); }
+
+button div {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 800;
+  font-size: 0.8em;
+  transition: all 0.3s ease-in-out; }
+
+body {
+  margin: 0;
+  padding: 0; }
+
+.menu {
+  margin-top: 22px; }
+
+.menu ul {
+  list-style: none;
+  margin: 0;
+  font-family: "Russo One", sans-serif; }
+
+.menu ul li {
+  padding: 9px;
+  position: relative;
+  width: 200px; }
+
+.menu ul ul {
+  transition: all 0.3s;
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  left: 55%;
+  top: -2%; }
+
+.menu ul li a {
+  text-decoration: none;
+  color: black; }
+
+.menu ul li:hover > ul {
+  opacity: 1;
+  visibility: visible;
+  background: black; }
+
+.menu ul li a:hover {
+  color: red; }
+  .menu ul li a:hover .menu ul ul li a:hover {
+    color: red; }
+
+.test {
+  margin-left: 3.5%; }
+
+.logo {
+  width: 148px;
+  height: 88px; }
+
+.card {
+  margin: 10px;
+  border: 0; }
+
+.card-img-top {
+  width: 270px;
+  height: 270px; }
+
+.card-text {
+  font-family: "Russo One", sans-serif;
+  font-size: 17.5px; }
+
+.imgspan {
+  width: 55px;
+  height: 32px;
+  background-color: red;
+  color: white;
+  text-align: center;
+  font-family: "Russo One", sans-serif; }
+
+.re-img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%; }
+
+.re-text {
+  font-family: "Kanit", sans-serif; }
+
+.footer {
+  width: 100%; }
+
+.btn-outline-danger {
+  color: red; }
+  .btn-outline-danger .btn-outline-danger :hover {
+    background-color: red; }
+
+/*# sourceMappingURL=styles.css.map */

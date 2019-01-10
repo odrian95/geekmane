@@ -1,0 +1,45 @@
+body
+    margin: 0
+    padding: 0
+.menu
+    margin-top: 22px
+.menu ul
+    list-style: none
+    margin: 0
+    font-family: 'Russo One', sans-serif
+.menu ul li 
+    padding: 9px
+    position: relative
+    width: 200px
+
+.menu ul ul
+    transition: all 0.3s
+    opacity: 0
+    visibility: hidden
+    position: absolute
+    left: 55%
+    top: -2%
+
+    
+.menu ul li a
+    text-decoration: none
+    color: black
+
+.menu ul li:hover > ul
+    opacity: 1
+    visibility: visible
+    background: black
+
+.menu ul li a:hover
+    color: red
+
+    .menu ul ul li a:hover
+        color: red
+
+.test
+    margin-left: 3.5%
+
+.logo
+    width: 148px
+    height: 88px
+        
