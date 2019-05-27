@@ -1,6 +1,9 @@
 html {
   scroll-behavior: smooth; }
 
+section {
+  background-image: url("../img/gaming-pattern.PNG"); }
+
 .test {
   margin-bottom: 9.9%; }
 
@@ -105,7 +108,8 @@ body {
 
 .card {
   margin: 10px;
-  border: 0; }
+  border: 0;
+  background-color: transparent; }
 
 .card-img-top {
   width: 270px;
